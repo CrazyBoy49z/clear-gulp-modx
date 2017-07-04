@@ -1,0 +1,4 @@
+.gulp
+node_modules
+_archive
+bower_components
