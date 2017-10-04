@@ -96,7 +96,7 @@ gulp.task('browser-sync', () => {
 
 gulp.task('watch', () => {
     gulp.watch('web/index.pug', ['pug']);
-    gulp.watch('web/html/index.pug', ['pug-chunks']);
+    gulp.watch('web/html/**/*.pug', ['pug-chunks']);
     gulp.watch('web/js/*.js', ['scripts']);
     gulp.watch('web/style.styl', ['stylus']);
     gulp.watch('web/js/*.js',['scripts']);
