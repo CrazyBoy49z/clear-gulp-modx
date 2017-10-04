@@ -1,11 +1,11 @@
-import gulp from 'gulp';
-import gutil from 'gulp-util';
-import pug from 'gulp-pug';
-import stylus from 'gulp-stylus';
-import browserSync from 'browser-sync';
-import uglify from 'gulp-uglify';
-import tinypng from 'gulp-tinypng';
-import concat from 'gulp-concat';
+var gulp = require('gulp');
+var gutil = require('gulp-util');
+var pug  = require('gulp-pug');
+var stylus = require('gulp-stylus');
+var browserSync = require('browser-sync');
+var uglify = require('gulp-uglify');
+var tinypng = require('gulp-tinypng');
+var concat = require('gulp-concat');
 
 var projPath = 'd:/temp/';
 
