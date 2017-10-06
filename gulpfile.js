@@ -64,7 +64,7 @@ gulp.task('pug-chunks', () => {
 
 gulp.task('stylus', () => {
     gulp.src('web/style.styl')
-        .pipe(stylus({compress: false}))
+        .pipe(stylus({compress: false,'include css': true}))
         .on('error', gutil.log)
         .pipe(gulp.dest(projPath+'assets/tpl/'));
 });
