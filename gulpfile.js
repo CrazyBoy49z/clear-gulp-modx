@@ -99,6 +99,7 @@ gulp.task('watch', () => {
     gulp.watch('web/html/**/*.pug', ['pug-chunks']);
     gulp.watch('web/js/*.js', ['scripts']);
     gulp.watch('web/style.styl', ['stylus']);
+    gulp.watch('web/css/**/*.styl', ['stylus']);
     gulp.watch('web/js/*.js',['scripts']);
 });
 
